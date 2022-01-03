@@ -1,0 +1,44 @@
+.mmdiv {
+    width: 25%;
+    display: grid;
+    grid-template-columns: 30% 30%;
+    grid-gap: 120%;
+    margin-left: 1%;
+}
+
+.scrollBar {
+    max-height: 200px;
+    overflow-y: scroll;
+}
+
+.inputform {
+    background-color: rgba(143, 3, 136, 0.699);
+    padding: 10px;
+    justify-content: left;
+    /* color: #ffff; */
+}
+
+.mainDiv {
+    display: grid;
+    grid-template-columns: 49% 29%;
+    grid-gap: 12%;
+    border: 1px solid purple;
+}
+
+.mDiv {
+    width: 25%;
+    max-height: 250px;
+    overflow: scroll;
+    margin-left: 30%;
+}
+
+.mdiv1 {
+    width: 200%;
+    height: 70px;
+    display: grid;
+    cursor: pointer;
+    grid-template-columns: repeat(5, 20%);
+    grid-gap: 1%;
+    background-color: rgba(20, 173, 0, 0.363);
+    color: black;
+}
